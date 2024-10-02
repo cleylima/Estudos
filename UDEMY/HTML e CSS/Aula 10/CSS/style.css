@@ -1,0 +1,65 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.link{
+    transition: all 1s ease-in-out;
+}
+
+.link:hover{
+    background: red;
+}
+
+a{
+    color: orange;
+}
+
+a.link{
+    color: blue;
+}
+
+a.link:visited{
+    color: blueviolet;
+}
+
+input:focus{
+    box-shadow: 0, 0, 5px rgba(0, 0, 0, 0.9);
+    outline: none;
+    border: 1px solid black; 
+}
+
+input:disabled{
+    background: pink;
+    cursor: not-allowed;
+} 
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+input:checked + p{
+    background: red;
+}
+
+.pai .lista li:first-child{
+    background: red;
+}
+
+.pai .lista li:last-child{
+    background: blue;
+}
+
+ul li:nth-child(odd){
+    background: blue;
+}
+ul li:nth-child(even){
+    background: red;
+}
+ul li:nth-child(3n){
+    background: greenyellow;
+}
+ul li:nth-child(3n+8){
+    background: darkmagenta;
+}

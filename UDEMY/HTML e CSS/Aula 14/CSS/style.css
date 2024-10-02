@@ -1,0 +1,58 @@
+*{
+    margin: 0 0 0 2px;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.0670a281f63870884a772ff59ba8d426?rik=7L4DcW3DSYcPog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fHD-Supernatural-Wallpapers.jpg&ehk=CHvNMmZ5aoSyNgwcRrfX%2bA9c%2fQI47yg3zYo3R17LhjE%3d&risl=&pid=ImgRaw&r=0);
+    background-size: auto;
+    background-size: auto;
+    background-position: auto;
+}
+
+.px{
+    width: 99vw;
+    height: 100vh;
+    background: rgb(255, 0, 0, 0.200);
+    font-size: 2rem;
+}
+.em{
+    width: 99vw;
+    height: 100vh;
+    background: rgb(80, 248, 3, 0.200);
+    font-size: 2rem;
+}
+.rem{
+    width: 99vw;
+    height: 100vh;
+    background: rgb(248, 252, 2, 0.200);
+    font-size: 2rem;
+}
+.vw{
+    width: 99vw;
+    height: 100vh;
+    background: rgba(248, 120, 0, 0.200);
+    font-size: 2rem;
+}
+
+.vh{
+    width: 99vw;
+    height: 100vh;
+    background: rgb(0, 255, 242, 0.200);
+    font-size: 2rem;
+}
+.porc{
+    width: 99vw;
+    height: 100vh;
+    background: rgb(255, 0, 234, 0.200);
+    font-size: 2rem;
+}
+a{
+    color: #fff;
+    font-size: 3rem;
+}

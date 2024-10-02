@@ -1,0 +1,26 @@
+ul li::after{
+    content: "-";
+    color: blue;
+}
+ul li::before{
+    content: "-";
+    color: red;
+}
+p::first-letter{
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+p{
+    font-size: 24px;
+}
+
+p::first-line{
+    background: red;
+}
+
+p::selection{
+    background: black;
+    color: white;
+}

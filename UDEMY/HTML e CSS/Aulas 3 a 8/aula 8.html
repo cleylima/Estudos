@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios e Inputs</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        label{
+            cursor: pointer;
+        }
+    </style>
+  
+</head>
+<body>
+    <section>
+        <form action="#" method="get">
+            <h1>Cabeçalho</h1>
+            <p>O Formulario</p>
+
+            <fieldset>
+                <legend>Campo para inserir texto como Nomes</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="Nome" placeholder="Digite aqui" required>
+                </p>
+                <hr>
+                <legend>Caixa para marcar</legend>
+                <p>
+                    <label for="dev">É desenvolvedor?:</label>
+                    <label for="dev">SIM</label>
+                    <input type="checkbox" id="dev" name="dev">
+                    <label for="dev">NÃO</label>
+                    <input type="checkbox" id="dev" name="dev"> 
+                </p>
+                <hr>
+                <legend>Caixa que pode marcar apenas 1 opção</legend>
+                <p>
+                     Gênero: <br>
+                    <label for="Feminino">Feminino</label>
+                    <input type="radio" id="Feminino" name="genero"> <br>  
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" id="Masculino" name="genero">
+                </p>
+                <hr>
+                <legend>Campo para datas</legend>
+                <p>
+                    <label for="date">Data</label>
+                    <input type="date" id="date" name="date">
+                </p>
+                <hr>
+                <legend>Campo para Horas</legend>
+                <p>
+                    <label for="time">Hora</label>
+                    <input type="time" id="time" name="time">
+                </p>
+                <hr>
+                <legend>Campo para Cor</legend>
+                <p>
+                    <label for="cor">Cor</label>
+                    <input type="color" id="cor" name="cor">
+                </p>
+                <hr>
+                <legend>Campo para pedir e-mail</legend>
+                <p>
+                    <label for="email">Seu e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="ex.: email@email.com">
+                </p>
+                <hr>
+                <legend>Campo para inserir arquivos</legend>
+                <p>
+                    <label for="file">Seu Curriculo</label>
+                    <input type="file" id="file" name="file" accept=".pdf, .png, .jpg">
+                </p>
+                <hr>
+                <legend>Campo para inserir numeros</legend>
+                <p>
+                    <label for="number">Numero</label>
+                    <input type="number" id="number" name="number" min="5" max="100" step="5">
+                </p>
+                <hr>
+                <legend>Campo para senhas</legend>
+                <p>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                </p>
+                <hr>
+                <legend>Campo barra de volume</legend>
+                <p>
+                    <label for="range">Volume</label>
+                    <input type="range" id="range" name="range">
+                </p>
+                <hr>
+                <legend>Campo para inserir URL</legend>
+                <p>
+                    <label for="URL">Sua Url</label>
+                    <input type="url" id="url" name="url">
+                </p>
+                <hr>
+                <legend>Campo para pesquisa no site</legend>
+                <p>
+                    <label for="search">Pesquisa</label>
+                    <input type="search" id="search" name="search" placeholder="Pesquise aqui">
+                </p>
+                <hr>
+                <legend>Campo para selecionar opções</legend>
+                <p>
+                    <label for="select">Selecione uma opção: </label>
+                    <select name="select" id="select">
+                        <option value="Valor 1">Label 1</option>
+                        <option value="Valor 2">Label 2</option>
+                        <option value="Valor 3">Label 3</option>
+                        <option value="Valor 4">Label 4</option>
+                    </select>
+                </p>
+                <hr>
+                <legend>Campo para inserir uma area de texto</legend>
+                <p>
+                    <label for="textarea">Escreva aqui</label>
+                    <textarea name="textarea" id="textarea"></textarea>
+                </p>
+
+
+
+                <hr>
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+                </p>
+               
+            </fieldset>
+
+        </form>
+    </section>
+</body>
+</html>
